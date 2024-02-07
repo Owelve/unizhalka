@@ -117,7 +117,12 @@ color: #FFE458;
     }
 
     .form--btn {
-        padding: 6px 6px;
+        padding: 8px 8px;
+    }
+
+    .form--btn .btn-img {
+        width: 40px;
+        height: 40px;
     }
 
     .form .form--name {
@@ -146,7 +151,7 @@ color: #FFE458;
     }
 
     .form--btn {
-        padding: 4px 4px;
+        padding: 7px 7px;
     }
 
     .form .form--name {
@@ -154,8 +159,12 @@ color: #FFE458;
     }
 
     .form--btn .btn-img {
-        width: 46px;
-        height: 46px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .labelContainer {
+        font-size: 24px;
     }
 
 }
@@ -179,7 +188,7 @@ color: #FFE458;
     }
 
     .form--btn {
-        padding: 1px 1px;
+        padding: 7px 7px;
     }
 
     .form .form--name {
@@ -187,8 +196,12 @@ color: #FFE458;
     }
 
     .form--btn .btn-img {
-        width: 44px;
-        height: 44px;
+        width: 28px;
+        height: 28px;
+    }
+
+    .labelContainer {
+        font-size: 21px;
     }
 }
 
