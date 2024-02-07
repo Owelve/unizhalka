@@ -99,6 +99,11 @@ color: #FFE458;
 
 /* Adaptive */
 @media (max-width: 1022px){ 
+
+    .container {
+        row-gap: 141px;
+    }
+
     .header h1 {
         font-size: 55px;
     }
@@ -108,7 +113,7 @@ color: #FFE458;
     }
     
     .header p {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .form {
@@ -133,6 +138,11 @@ color: #FFE458;
 
 
 @media (max-width: 570px){ 
+
+    .container {
+        row-gap: 131px;
+    }
+
     .header h1 {
         font-size: 55px;
     }
@@ -170,6 +180,11 @@ color: #FFE458;
 }
 
 @media (max-width: 490px){ 
+
+    .container {
+        row-gap: 111px;
+    }
+
     .header h1 {
         font-size: 42px;
     }
