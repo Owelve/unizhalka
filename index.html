@@ -20,7 +20,7 @@
 
     <!-- MAIN -->
     <main class="main">
-<form class="form" action="">
+<form class="form" action="" onSubmit="return false">
 <input class="form--name"
 id="name-id"
 type="text" 
@@ -28,7 +28,7 @@ name="form--name"
 placeholder="Введите имя..."
 autocomplete="off"
 maxlength="20">
-<button class="form--btn" type="button" onclick="validName()"><img src="/assets/galochka.svg" alt="IMG" id="btn-id" class="btn-img"></button>
+<button class="form--btn" type="submit" type="button" onclick="validName()" id="btn-id"><img src="/assets/galochka.svg" alt="IMG" id="btn-id" class="btn-img"></button>
 </form>
 
 <div class="labelContainer" id="labelContainer"></div>
