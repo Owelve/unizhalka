@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap');
 @import url('/css/reset.css');
 
-
 body {
     background-color: #FFE458;
     font-family: 'Jost', sans-serif;
@@ -52,6 +51,7 @@ font-weight: 700;
     display: flex;
     flex-direction: column;
     row-gap: 27px;
+    align-items: center;
 }
 
 .form {
@@ -85,6 +85,10 @@ color: #FFE458;
     border-radius: 48px;
 }
 
+.form--btn img {
+    fill: #FFE458;
+}
+
 .labelContainer {
     font-size: 36px;
     font-weight: 500;
@@ -95,6 +99,18 @@ color: #FFE458;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.themeSwitch {
+    background-color: #111111;
+    border-radius: 42px;
+}
+
+.themeSwitch p{
+    color: #FFE458;
+    margin: 20px 30px;
+    font-size: 28px;
+    font-weight: 500;
 }
 
 /* Adaptive */
@@ -123,7 +139,7 @@ color: #FFE458;
     }
 
     .form--btn {
-        padding: 8px 8px;
+        padding: 8px 10px;
     }
 
     .form--btn .btn-img {
@@ -135,6 +151,9 @@ color: #FFE458;
         font-size: 24px;
     }
 
+    .themeSwitch p{
+        margin: 15px 25px;
+    }
 }
 
 
@@ -163,7 +182,7 @@ color: #FFE458;
     }
 
     .form--btn {
-        padding: 7px 7px;
+        padding: 7px 9px;
     }
 
     .form .form--name {
@@ -177,6 +196,10 @@ color: #FFE458;
 
     .labelContainer {
         font-size: 24px;
+    }
+
+    .themeSwitch p{
+        margin: 10px 20px;
     }
 
 }
@@ -206,7 +229,7 @@ color: #FFE458;
     }
 
     .form--btn {
-        padding: 7px 7px;
+        padding: 6px 8px;
     }
 
     .form .form--name {
@@ -220,6 +243,11 @@ color: #FFE458;
 
     .labelContainer {
         font-size: 21px;
+    }
+
+    .themeSwitch p{
+        margin: 8px 13px;
+        font-size: 23px;
     }
 }
 

@@ -1,0 +1,43 @@
+body {
+    background-color: #111111;
+}
+
+/* HEADER */
+
+.header h2,h1,p,h1>a {
+    color: #FFE458;
+}
+
+/* MAIN */
+
+.form {
+    background-color: #FFE458;
+}
+
+.form .form--name {
+color: #111111;
+}
+
+.form--name::placeholder {
+    color: #111111;
+}
+
+.form--btn {
+    background-color: #111111;
+}
+
+.form--btn svg{
+    fill: #FFE458;
+}
+
+.labelContainer {
+    color: #FFE458;
+}
+
+.themeSwitch {
+    background-color: #FFE458;
+}
+
+.themeSwitch p{
+    color: #111111;
+}
