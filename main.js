@@ -28,6 +28,8 @@ function validName() {
 
 // Создание рандомного label
 
+
+
 function createRandomLabel() {
     if (labelCount >= 3) {
         labelCount = 0;
